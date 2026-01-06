@@ -3,4 +3,7 @@
   <Folder Name="/Services/Catalog/">
     <Project Path="Services/Catalog/Microservis.Catalog/Microservis.Catalog.csproj" />
   </Folder>
+  <Folder Name="/Services/Discount/">
+    <Project Path="Services/Discount/Mikroservis.Discount/Mikroservis.Discount.csproj" Id="c679b297-d2cc-48db-9803-563522d700f4" />
+  </Folder>
 </Solution>

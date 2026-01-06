@@ -14,7 +14,7 @@ namespace Microservis.Catalog.Services.ProductServices
         {
             var mongoClient = new MongoClient(_databaseSettings.ConnectionString);
             var mongoDatabase = mongoClient.GetDatabase(_databaseSettings.DatabaseName);
-            _productCollection = mongoDatabase.GetCollection<Product>(_databaseSettings.ProductDetailCollectionName);
+            _productCollection = mongoDatabase.GetCollection<Product>(_databaseSettings.ProductCollectionName);
             _mapper = mapper;
 
         }
