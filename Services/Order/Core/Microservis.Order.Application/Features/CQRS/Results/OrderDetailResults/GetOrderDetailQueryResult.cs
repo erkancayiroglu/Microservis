@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microservis.Order.Domain.Entities
+namespace Microservis.Order.Application.Features.CQRS.Results.OrderDetailResults
 {
-    public class OrderDetail
+    public class GetOrderDetailQueryResult
     {
         public int OrderDetailId { get; set; }
         public string ProductId { get; set; }
@@ -15,7 +15,6 @@ namespace Microservis.Order.Domain.Entities
         public int ProductAmount { get; set; }
         public decimal ProductTotalPrice { get; set; }
         public int OrderingId { get; set; }
-        public Ordering Ordering { get; set; }
 
     }
 }

@@ -4,7 +4,7 @@
     <Project Path="Services/Catalog/Microservis.Catalog/Microservis.Catalog.csproj" />
   </Folder>
   <Folder Name="/Services/Discount/">
-    <Project Path="Services/Discount/Mikroservis.Discount/Mikroservis.Discount.csproj" Id="c679b297-d2cc-48db-9803-563522d700f4" />
+    <Project Path="Services/Discount/Mikroservis.Discount/Microservis.Discount.csproj" Id="c679b297-d2cc-48db-9803-563522d700f4" />
   </Folder>
   <Folder Name="/Services/Order/" />
   <Folder Name="/Services/Order/Core/">
@@ -15,6 +15,6 @@
     <Project Path="Services/Order/Infrastructure/Microservis.Order.Persistence/Microservis.Order.Persistence.csproj" Id="42488d6b-fe67-4816-adbd-fc5ba980664a" />
   </Folder>
   <Folder Name="/Services/Order/Presentation/">
-    <Project Path="Services/Order/Presentation/Mikroservis.Order.WebApi/Mikroservis.Order.WebApi.csproj" Id="bacbb1bd-fc5c-44e0-80b8-844ebe251421" />
+    <Project Path="Servisces/Order/Presentation/Mikroservis.Order.WebApi/Mikroservis.Order.WebApi.csproj" Id="0b0d7f4e-8d34-47e6-8f23-2be25728e04c" />
   </Folder>
 </Solution>

@@ -1,4 +1,4 @@
-@Mikroservis.Order.WebApi_HostAddress = http://localhost:5062
+@Mikroservis.Order.WebApi_HostAddress = http://localhost:5042
 
 GET {{Mikroservis.Order.WebApi_HostAddress}}/weatherforecast/
 Accept: application/json

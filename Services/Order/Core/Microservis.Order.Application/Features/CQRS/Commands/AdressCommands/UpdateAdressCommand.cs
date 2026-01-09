@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microservis.Order.Application.Features.CQRS.Results.AdressResults
+namespace Microservis.Order.Application.Features.CQRS.Commands.AdressCommands
 {
-    public class GetAddressQueryResult
+    public class UpdateAddressCommand
     {
         public int AddressId { get; set; }
         public string UserId { get; set; }
@@ -14,5 +14,6 @@ namespace Microservis.Order.Application.Features.CQRS.Results.AdressResults
         public string City { get; set; }
         public string Detail { get; set; }
     }
+
 
 }

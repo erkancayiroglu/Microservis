@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Microservis.Order.Domain.Entities
+namespace Microservis.Order.Application.Features.CQRS.Commands.AdressCommands
 {
-    public class Address
+    public class CreateAddressCommand
     {
         public int AddressId { get; set; }
         public string UserId { get; set; }
@@ -21,6 +21,6 @@ namespace Microservis.Order.Domain.Entities
         public string Detail2 { get; set; }
         public string Description { get; set; }
         public string ZipCode { get; set; }
-
     }
+
 }
