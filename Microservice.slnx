@@ -1,0 +1,26 @@
+<Solution>
+  <Folder Name="/IdentityServer/">
+    <Project Path="IdentityServer/Microservice.IdentityServer/Microservice.IdentityServer.csproj" />
+  </Folder>
+
+  <Folder Name="/Services/" />
+  <Folder Name="/Services/Catalog/">
+    <Project Path="Services/Catalog/Microservice.Catalog/Microservice.Catalog.csproj" />
+  </Folder>
+  <Folder Name="/Services/Discount/">
+    <Project Path="Services/Discount/Mikroservice.Discount/Microservice.Discount.csproj" />
+  </Folder>
+
+  <Folder Name="/Services/Order/" />
+  <Folder Name="/Services/Order/Core/">
+    <Project Path="Services/Order/Core/Microservice.Order.Application/Microservice.Order.Application.csproj" Id="337e0f25-a62f-4ea9-a34c-71a59becb87c" />
+    <Project Path="Services/Order/Core/Microservice.Order.Domain/Microservice.Order.Domain.csproj" Id="ef6ff7d0-3b5c-4c3e-9a94-8f03b453b119" />
+  </Folder>
+  <Folder Name="/Services/Order/Infrastructure/">
+    <Project Path="Services/Order/Infrastructure/Microservice.Order.Persistence/Microservice.Order.Persistence.csproj" Id="42488d6b-fe67-4816-adbd-fc5ba980664a" />
+  </Folder>
+<Folder Name="/Services/Order/Presentation/">
+  <Project Path="Services/Order/Presentation/Microservice.Order.WebApi/Microservice.Order.WebApi.csproj" />
+</Folder>
+
+</Solution>
